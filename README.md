@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="NornGate" width="180">
+</p>
+
 # ᚾ NornGate — AI Multi-Purpose Orchestrator
 
 > **Deterministic, fail-closed gating for every consequential action.** Verified *before* any side effect occurs — fully audited, framework-agnostic, and built for autonomous systems.
