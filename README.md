@@ -1,6 +1,6 @@
 # ᚾ NornGate — AI Multi-Purpose Orchestrator
 
-> **The gated runtime for AI agent fleets.** Every consequential action is verified *before* any side effect occurs — deterministically, fail-closed, and fully audited.
+> **Deterministic, fail-closed gating for every consequential action.** Verified *before* any side effect occurs — fully audited, framework-agnostic, and built for autonomous systems.
 
 ---
 
@@ -87,7 +87,7 @@ Enforced by the runtime, not left to application code:
 
 ## ᚹ Who it is for
 
-- **Platform / infrastructure teams** running agent fleets that need one enforceable control point across frameworks.
+- **Platform / infrastructure teams** running autonomous systems that need one enforceable control point across frameworks.
 - **ML / applied-AI engineers** who need agents to *act* on production systems without hand-rolling authorization and audit per integration.
 - **Security engineers** who need default-deny at the tool-execution boundary — not model-level guardrails an LLM can talk its way past.
 - **Compliance / risk owners** who need provable provenance for regulated workflows: the ledger as evidence.
