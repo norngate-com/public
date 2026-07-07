@@ -1,4 +1,4 @@
-# ᚾ NornGate
+# ᚾ NornGate — AI Multi-Purpose Orchestrator
 
 > **The gated runtime for AI agent fleets.** Every consequential action is verified *before* any side effect occurs — deterministically, fail-closed, and fully audited.
 
