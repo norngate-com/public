@@ -122,15 +122,6 @@ Section glyphs are Elder Futhark runes (Unicode Runic block, U+16A0–U+16FF) �
 
 ---
 
-## Repositories
-
-| Repo | Purpose |
-|------|---------|
-| [public](https://github.com/norngate-com/public) | Public-facing overview, wiki, and documentation |
-| [frontend](https://github.com/norngate-com/frontend) | Website and splash page |
-
----
-
 **[Wiki](https://github.com/norngate-com/public/wiki)** · **[norngate.com](https://norngate.com)**
 
 © 2026 NornGate Technology Company
