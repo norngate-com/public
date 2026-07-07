@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="NornGate" width="200">
+  <img src="logo.png" alt="NornGate" width="250">
 </p>
 
 # ᚾ NornGate — AI Multi-Purpose Orchestrator
