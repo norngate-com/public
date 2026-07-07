@@ -2,7 +2,7 @@
   <img src="logo.png" alt="NornGate" width="250">
 </p>
 
-# ᚾ NornGate — AI Multi-Purpose Orchestrator
+# NornGate — AI Multi-Purpose Orchestrator
 
 > **Deterministic, fail-closed gating for every consequential action.** Verified *before* any side effect occurs — fully audited, framework-agnostic, and built for autonomous systems.
 
@@ -16,7 +16,7 @@ NornGate is a deterministic, fail-closed control plane that sits in front of age
 
 ---
 
-## ᚦ The five-gate pipeline
+## The five-gate pipeline
 
 Every request traverses **G0 → G4** in order. A gate may only pass an action along; it can never grant a capability a later gate would withhold. Any gate that cannot explicitly approve terminates the request and writes the verdict to the **Urd ledger**.
 
@@ -51,7 +51,7 @@ Flip any single check to *unknown* and the request stops at that gate — no par
 
 ---
 
-## ᛉ Why gate before execution
+## Why gate before execution
 
 Agents can read, write, execute, and decide. That capability set is exactly what makes post-hoc control insufficient — by the time you observe the side effect, the mutation has already happened. Pre-execution gating prevents concrete failure modes:
 
@@ -63,7 +63,7 @@ Agents can read, write, execute, and decide. That capability set is exactly what
 
 ---
 
-## ᛇ Architecture — Norse cosmology as a system model
+## Architecture — Norse cosmology as a system model
 
 The cosmology is load-bearing, not branding. Each name maps to a concrete control, trust boundary, or recovery pattern, sourced to the Eddic corpus.
 
@@ -77,7 +77,7 @@ The cosmology is load-bearing, not branding. Each name maps to a concrete contro
 
 ---
 
-## ᛜ Key properties
+## Key properties
 
 Enforced by the runtime, not left to application code:
 
@@ -89,7 +89,7 @@ Enforced by the runtime, not left to application code:
 
 ---
 
-## ᚹ Who it is for
+## Who it is for
 
 - **Platform / infrastructure teams** running autonomous systems that need one enforceable control point across frameworks.
 - **ML / applied-AI engineers** who need agents to *act* on production systems without hand-rolling authorization and audit per integration.
@@ -100,26 +100,26 @@ Enforced by the runtime, not left to application code:
 
 ## Iconography
 
-Section glyphs are Elder Futhark runes (Unicode Runic block, U+16A0–U+16FF) — chosen so the mark carries the meaning, and explicitly *not* emoji.
+Section headings are inspired by Elder Futhark runes — each maps to its section's purpose:
 
-| Rune | Name | Gloss | Marks |
-|------|------|-------|-------|
-| ᚾ | Nauðiz | need, necessity, constraint | the platform mark — the binding gate |
-| ᚦ | Thurisaz | thorn, gateway, warding force | the five gates |
-| ᛉ | Algiz | protection, defense | why gate before execution |
-| ᛇ | Eihwaz | the yew, the world-tree axis | architecture / the Spine |
-| ᛜ | Ingwaz | enclosure, completion, stored potential | key properties |
-| ᚹ | Wunjo | kinship, fellowship | who it is for |
-| ᛟ | Othala | ancestral home, heritage | Introduction (wiki) |
-| ᚱ | Raidō | the ride, the road, a journey | Getting Started (wiki) |
-| ᚲ | Kenaz | torch, knowledge, insight | Core Concepts (wiki) |
-| ᛏ | Tiwaz | Týr — guidance, order, justice | Guides (wiki) |
-| ᛗ | Mannaz | humankind, mind, the record | Reference (wiki) |
-| ᚨ | Ansuz | Óðinn — the word, wisdom | sources |
+| Rune | Meaning | Section |
+|------|---------|---------|
+| Nauðiz | need, necessity, constraint | the platform mark — the binding gate |
+| Thurisaz | thorn, gateway, warding force | the five gates |
+| Algiz | protection, defense | why gate before execution |
+| Eihwaz | the yew, the world-tree axis | architecture / the Spine |
+| Ingwaz | enclosure, completion, stored potential | key properties |
+| Wunjo | kinship, fellowship | who it is for |
+| Othala | ancestral home, heritage | Introduction (wiki) |
+| Raidō | the ride, the road, a journey | Getting Started (wiki) |
+| Kenaz | torch, knowledge, insight | Core Concepts (wiki) |
+| Tiwaz | Týr — guidance, order, justice | Guides (wiki) |
+| Mannaz | humankind, mind, the record | Reference (wiki) |
+| Ansuz | Óðinn — the word, wisdom | sources |
 
 ---
 
-## ᚨ Sources
+## Sources
 
 - **Eddic corpus (naming doctrine).** Snorri Sturluson, *Prose Edda* (*Gylfaginning* — the Norns, Yggdrasil, Baldr, Ragnarök); the *Poetic Edda* (*Völuspá* — cosmology and the Nine Worlds). The rune meanings follow the Elder Futhark tradition. The mapping from these sources to platform controls is maintained as a first-class artifact, not flavor text.
 - **Internal design docs.** `CORE-STRUCTURE.md` (naming doctrine, realm→subdomain mapping, god→agent registry, Norn telemetry triad) and the platform white paper / light paper (gate taxonomy, per-outcome billing model).
